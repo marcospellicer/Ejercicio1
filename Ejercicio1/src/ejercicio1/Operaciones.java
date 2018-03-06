@@ -9,13 +9,16 @@ package ejercicio1;
  *
  * @author alumno
  */
-public class Ejercicio1 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class Operaciones {
+   
+    public static String o1(){
+     String aux=""; 
+     
+        for (int i = 1; i < 21; i++) {
+            aux+=i+"\n";
+        }
+        System.out.println(aux);
+        return aux;
     }
     
 }
