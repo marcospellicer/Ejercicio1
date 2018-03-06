@@ -11,14 +11,6 @@ package ejercicio1;
  */
 public class Operaciones {
    
-    public static String o1(){
-     String aux=""; 
-     
-        for (int i = 1; i < 21; i++) {
-            aux+=i+"\n";
-        }
-        System.out.println(aux);
-        return aux;
-    }
+    
     
 }
